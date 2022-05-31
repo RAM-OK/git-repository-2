@@ -7,18 +7,15 @@
 header {
   height: 50px;
   background-color: #ff9a4b;
-  position: relative;
 }
 
-.social i {
+social i {
   display: inline-block;
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 20px;
 }
 
 .social {
   position: absolute;
-  top: 50px;
 }
 
 main {
@@ -82,19 +79,22 @@ footer {
     height: 50px;
   }
   
+  .social {
+    display: none;
+  }
+  
   main {
     width: 100%;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 25px;
     display: block;
   }
   
   .step-box {
     width: 90%;
-    margin-top: 20px;
+    margin-top: 50px;
   }
   
-  .step-img1 {
+ .step-img1 {
     height: 150px;
   }
   
