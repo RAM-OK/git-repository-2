@@ -9,15 +9,6 @@ header {
   background-color: #ff9a4b;
 }
 
-social i {
-  display: inline-block;
-  margin-left: 20px;
-}
-
-.social {
-  position: absolute;
-}
-
 main {
   width: 960px;
   margin: 50px auto;
@@ -85,13 +76,15 @@ footer {
   
   main {
     width: 100%;
-    margin: 25px;
+    margin: 0 auto;
     display: block;
   }
   
   .step-box {
     width: 90%;
-    margin-top: 50px;
+    margin: 0 auto;
+    margin: 50px;
+    padding: 20px;
   }
   
  .step-img1 {
